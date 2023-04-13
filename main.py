@@ -8,7 +8,7 @@ downloads_folder = os.path.expanduser("~") + "/Documents/"
 target_folder = os.path.expanduser("~") + "/Documents/Movedfiles/"
 
 # Those extension which you would like to move.
-file_extension = ".pdf"
+file_extension = (".txt", ".pdf", ".docx")
 
 # Loop through all files in the downloads folder
 for filename in os.listdir(downloads_folder):
